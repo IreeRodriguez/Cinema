@@ -1,0 +1,21 @@
+
+@media (max-width: 690px) {
+    [class*='col-']{
+        width: 100% !important;
+    }
+    .smallPhoto{
+        height: 15em;
+    }
+    .show{
+        display: none;
+    }
+    .navBar{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: nowrap;
+    }
+    .hidden{
+        display: inline-block;
+        text-align: right;
+    }
+}
