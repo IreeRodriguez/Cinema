@@ -125,3 +125,37 @@ iframe{
     height: 100%;
     object-fit: cover;
 }
+.text{
+    text-align: left;
+
+    padding: 2em 3em 2em;
+}
+.text p{
+    line-height: normal;
+}
+hr{
+    margin: 1.2em 0 1.2em;
+}
+.text p:last-child{
+    color: #BC7B29;
+}
+h3{
+    color: lightgray;
+    margin-bottom: 1em;
+}
+.vertical{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.white{
+    background-color: white;
+}
+footer{
+    background-color: #F3F3F3;
+    padding: 3em;
+    font-size: 0.8em;
+}
+footer p{
+    line-height: normal;
+}
